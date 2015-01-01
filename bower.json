@@ -1,0 +1,27 @@
+{
+  "name": "angular-terminal",
+  "version": "1.0.0",
+  "authors": [
+    "Matt Lo <mattlo.developer@gmail.com>"
+  ],
+  "description": "A port of jQuery.terminal into AngularJS",
+  "keywords": [
+    "angular",
+    "jquery",
+    "terminal"
+  ],
+  "license": "Apache",
+  "homepage": "https://github.com/mattlo/angular-terminal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.terminal": "~0.8.8",
+    "jquery-mousewheel": "~3.1.12",
+    "angular": "~1.3.8"
+  }
+}
