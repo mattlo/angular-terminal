@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="demo">
+	<head>
+		<title>Angular Terminal</title>
+		<link rel="stylesheet" href="../bower_components/jquery.terminal/css/jquery.terminal.css">
+		<style type="text/css">
+			.terminal-container {
+				max-height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="terminal-container" angular-terminal="main">
+			
+		</div>
+
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/angular/angular.js"></script>
+		<script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+		<script src="../bower_components/jquery.terminal/js/jquery.terminal-min.js"></script>
+
+		<script src="../angular-terminal.js"></script>
+
+		<script>
+			angular
+			.module('demo', ['angular-terminal'])
+			.run(function ($rootScope) {
+				$rootScope.$on('terminal.main', function (e, input, terminal) {
+					$rootScope.$emit('terminal.main.echo', 'input received: ' + input)
+				});
+			});
+		</script>
+	</body>
+</html>
