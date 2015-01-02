@@ -22,3 +22,6 @@ Send out an output, assumes `$rootScope` is available. **Incoming events are not
 ```js
 $rootScope.$emit('terminal.main.echo', 'Hello World');
 ```
+
+## License
+View the [LICENSE](https://github.com/mattlo/angular-terminal/blob/master/LICENSE) file.
