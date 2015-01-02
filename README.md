@@ -1,6 +1,22 @@
 # Angular Terminal
 This is a wrapper around https://github.com/jcubic/jquery.terminal
 
+## Install
+
+Clone the repository and include directly into your project. You can also use bower and install as a dependency:
+
+```
+bower install angular-terminal
+```
+
+Add the dependency in your Angular's project dependency arguments:
+
+```js
+var app = angular.module('MyApp', [
+	'angular-terminal'
+]);
+```
+
 ## How to Initialize
 `<div />` acts as a container and the HTML generated stays isolated within the directive element.
 The "main" value is the namespace.
