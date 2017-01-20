@@ -1,0 +1,27 @@
+{
+  "name": "angular-terminal",
+  "version": "1.0.0",
+  "description": "A port of jQuery.terminal into AngularJS",
+  "main": "angular-terminal.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlo/angular-terminal.git"
+  },
+  "keywords": [
+    "angular",
+    "jquery",
+    "terminal"
+  ],
+  "author": "Matt Lo <mattlo.developer@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mattlo/angular-terminal/issues"
+  },
+  "homepage": "https://github.com/mattlo/angular-terminal#readme"
+}
