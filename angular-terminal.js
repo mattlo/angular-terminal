@@ -13,7 +13,8 @@ angular
 				// user input commands
 				$rootScope.$emit(namespace, input, terminal);
 			}, {
-   				greetings: attrs.greetings || ''
+   				greetings: attrs.greetings || '',
+				prompt: attrs.prompt || ">"
 			});
 
 			// receiving echo commands\
