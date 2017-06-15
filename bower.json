@@ -4,6 +4,7 @@
   "authors": [
     "Matt Lo <mattlo.developer@gmail.com>"
   ],
+  "main": "angular-terminal.js",
   "description": "A port of jQuery.terminal into AngularJS",
   "keywords": [
     "angular",
